@@ -1,0 +1,19 @@
+@import "../../public/assets/scss/variable.scss";
+
+/* brand section css start */
+.brand-slider {
+    padding-top: 0;
+    .brand-content {
+        padding: 0 15px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+        filter: hue-rotate(100deg);
+        }
+    }
+}
+
+.align-center span{
+    margin: 0 5em;
+}
+/* brand section css end */

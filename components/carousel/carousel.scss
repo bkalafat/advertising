@@ -1,0 +1,15 @@
+.react-multi-carousel-item .card {
+    display: none;
+}
+
+.react-multi-carousel-item--active .card {
+    display: block;
+}
+
+.react-multi-carousel-list button.react-multiple-carousel__arrow--right::before {
+    content: "\203a";
+}
+
+.react-multi-carousel-list button.react-multiple-carousel__arrow--left::before {
+    content: "\2039";
+}

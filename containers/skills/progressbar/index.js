@@ -1,0 +1,26 @@
+import React from 'react';
+import { Title } from '../../../components/common/title/index';
+import { Progress } from 'react-sweet-progress';
+import "react-sweet-progress/lib/style.css";
+
+function Progressbar(props) {
+    return (
+        <div className="progressbar-wrapper">
+            <Title Class={props.ProgressClass} Name={props.ProgressTitle} />
+            <Progress
+                percent={props.Percenteg}
+               
+                symbol={props.Percenteg}
+                status="error"
+                theme={{
+                    error: {
+                        symbol: props.Percenteg + '%',
+                        color: props.Color
+                    }
+                }}
+            />
+        </div >
+    );
+}
+
+export default Progressbar;
