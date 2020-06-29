@@ -20,7 +20,7 @@
         "emailjs-com": "^2.4.1",
         "firebase": "^7.5.0",
         "font-awesome.css": "^4.7.2",
-        "next": "^9.1.4",
+        "next": "^9.3.2",
         "next-compose-plugins": "^2.2.0",
         "next-fonts": "^1.2.0",
         "node-sass": "^4.13.0",
